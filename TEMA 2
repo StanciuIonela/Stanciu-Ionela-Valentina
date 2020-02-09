@@ -1,3 +1,4 @@
+Ex 1.
 #include<iostream>
 int main()
 {
@@ -19,3 +20,31 @@ int main()
  }
          std::cout<<std::endl<<n;
 }
+
+
+Ex 2
+#include<iostream>
+int main()
+{
+ int n=0;
+ int i;
+ for(i=1; i<=100; i++)
+ {
+         if(i%3!=0 && i%5!=0)
+         {
+             std::cout<<i<<std::endl;
+         }
+         if (i%3==0)
+         {std::cout<<"fizz"<<std::endl;
+         }
+
+          if (i%5==0)
+         {
+         std::cout<<"buzz"<<std::endl;
+         }
+
+         if(((i%3)==0) && ((i%5)==0))
+         {std::cout<<"fizzbuzz"<<std::endl;
+         }
+       
+ }
